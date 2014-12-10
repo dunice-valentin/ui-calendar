@@ -18,7 +18,7 @@
   "dependencies": {
     "angular": "1.2.26",
     "jquery": "2.x",
-    "fullcalendar": "2.1.1",
+    "fullcalendar": "git://github.com/dunice-valentin/fullcalendar.git",
     "moment": "2.*"
   },
   "devDependencies": {
