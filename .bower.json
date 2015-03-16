@@ -1,0 +1,40 @@
+{
+  "name": "angular-ui-calendar",
+  "description": "A complete AngularJS directive for the Arshaw FullCalendar.",
+  "author": "https://github.com/angular-ui/ui-calendar/graphs/contributors",
+  "license": "MIT",
+  "homepage": "http://angular-ui.github.com",
+  "main": "./src/calendar.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test*",
+    "demo*",
+    "gruntFile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "angular": "1.2.26",
+    "jquery": "2.x",
+    "fullcalendar": "git://github.com/dunice-valentin/fullcalendar.git#dunice",
+    "moment": "2.*"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.x",
+    "bootstrap-css": "2.3.1"
+  },
+  "resolutions": {
+    "jquery": "~2.x",
+    "angular": "1.2.26"
+  },
+  "_release": "995ec3e6d3",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "995ec3e6d323b75a50f0d5b49b503b8bf96063d8"
+  },
+  "_source": "https://github.com/dunice-valentin/ui-calendar.git",
+  "_target": "master",
+  "_originalSource": "https://github.com/dunice-valentin/ui-calendar.git"
+}

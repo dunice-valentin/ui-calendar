@@ -125,7 +125,7 @@ angular.module('ui.calendar', [])
             delete map[removedToken];
             var newToken = tokenFn(el);
             // if the element wasn't removed but simply got a new token, its old token will be different from the current one
-            if (newToken === removedToken) {
+            if (oldTokens.length - newTokens.length == removedTokens.length) {
               self.onRemoved(el);
             } else {
               replacedTokens[newToken] = removedToken;
@@ -266,8 +266,8 @@ angular.module('ui.calendar', [])
         };
 
         eventsWatcher.onChanged = function(event) {
-          event._start = $.fullCalendar.moment(event.start);
-          event._end = $.fullCalendar.moment(event.end);
+          event._start = event.start;
+          event._end = event.end;
           calendar.fullCalendar('updateEvent', event);
         };
 
