@@ -18,7 +18,7 @@
   "dependencies": {
     "angular": "~1.4.1",
     "jquery": "~2.1.4",
-    "fullcalendar": "http://github.com/Verrien/ui-calendar",
+    "fullcalendar": "git://github.com/Verrien/fullcalendar.git#master",
     "moment": "~2.10.3"
   },
   "devDependencies": {
